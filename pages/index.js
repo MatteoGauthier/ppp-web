@@ -1,65 +1,46 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import { CreatorName, ProjectName } from "../components/svg";
+import css from "styled-jsx/css";
 
-export default function Home() {
+const styles = css`
+  .card {
+    max-height: 384px;
+    height: 100%;
+    width: 100%;
+  }
+`;
+
+export default function IndexPage() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <>
+      <style jsx>{styles}</style>
+      <div className="h-full pt-32 bg-gradient-to-b from-darkA to-darkB">
+        <div className="">
+          <div className="flex justify-between px-3 uppercase text-pinkLight">
+            <ProjectName /> <CreatorName />
+            {/* <span>Métiers du numérique</span>
+          <span>vanon borget - Mattèo gauthier</span> */}
+          </div>
+          <div className="rounded ">
+            {[1, 2, 3].map(() => (
+              <div className="flex card bg-deep-black">
+                <div className="w-5/12 h-full bg-gray-100">Product Designer</div>
+                <div>
+                  <h2 className="title">Product Designer</h2>
+                  <p className="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor vulputate vel et in morbi amet.
+                    Tincidunt condimentum nisi, quam eget posuere facilisi porta. Nisi, urna sit consequat id magna
+                    elementum leo. Feugiat eu mi in dignissim vestibulum. Lectus facilisis fermentum platea id aliquet
+                    tellus vulputate enim. Nunc adipiscing dolor dignissim ut. Ut aliquet sit aliquet egestas praesent
+                    elit non. Interdum eget eget ultrices pulvinar semper tincidunt. Sem fames ac nulla in egestas ut
+                    velit morbi dolor quam.
+                  </p>
+                  <a href="#" className="link">Découvrir le métier de Product Designer →</a>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+      </div>
+    </>
+  );
 }

@@ -1,0 +1,30 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+.btn-blue {
+  @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
+}
+
+.title {
+  @apply text-6xl text-white
+}
+
+.description {
+  @apply text-gray-clay text-lg
+}
+
+.link {
+  @apply text-blue-clay text-xl
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
