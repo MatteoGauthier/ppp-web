@@ -1,45 +1,43 @@
-import { CreatorName, ProjectName } from "../components/svg";
-import css from "styled-jsx/css";
+import Image from "next/image";
+import Head from 'next/head'
 
-const styles = css`
-  .card {
-    max-height: 384px;
-    height: 100%;
-    width: 100%;
-  }
-`;
+import { CreatorName, ProjectName } from "../components/svg";
+import JobSectionA from "../components/JobSectionA";
+import JobSectionB from "../components/JobSectionB";
+import JobSectionC from "../components/JobSectionC";
 
 export default function IndexPage() {
   return (
     <>
-      <style jsx>{styles}</style>
-      <div className="h-full pt-32 bg-gradient-to-b from-darkA to-darkB">
-        <div className="">
-          <div className="flex justify-between px-3 uppercase text-pinkLight">
+      <Head>
+        <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.woff" as="font" crossOrigin="" />
+        <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.woff2" as="font" crossOrigin="" />
+        <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.svg" as="font" crossOrigin="" />
+      </Head>
+      <div className="h-full pt-24 bg-gradient-to-b from-darkA to-darkB">
+        <main className="max-w-screen-xl mx-auto mb-12 main">
+          <div className="flex justify-between px-3 pb-3 uppercase text-yellowLight">
             <ProjectName /> <CreatorName />
             {/* <span>Métiers du numérique</span>
           <span>vanon borget - Mattèo gauthier</span> */}
           </div>
-          <div className="rounded ">
-            {[1, 2, 3].map(() => (
-              <div className="flex card bg-deep-black">
-                <div className="w-5/12 h-full bg-gray-100">Product Designer</div>
-                <div>
-                  <h2 className="title">Product Designer</h2>
-                  <p className="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor vulputate vel et in morbi amet.
-                    Tincidunt condimentum nisi, quam eget posuere facilisi porta. Nisi, urna sit consequat id magna
-                    elementum leo. Feugiat eu mi in dignissim vestibulum. Lectus facilisis fermentum platea id aliquet
-                    tellus vulputate enim. Nunc adipiscing dolor dignissim ut. Ut aliquet sit aliquet egestas praesent
-                    elit non. Interdum eget eget ultrices pulvinar semper tincidunt. Sem fames ac nulla in egestas ut
-                    velit morbi dolor quam.
-                  </p>
-                  <a href="#" className="link">Découvrir le métier de Product Designer →</a>
-                </div>
-              </div>
-            ))}
+          <div className="overflow-hidden rounded">
+            <JobSectionA />
+            <JobSectionB />
+            <JobSectionC />
           </div>
-        </div>
+        </main>
+        <footer className="flex items-center justify-center pt-12 pb-24 space-x-10">
+          <a className="text-lg text-gravel-bright" href="#">
+            À propos
+          </a>
+          <a className="text-lg text-gravel-bright" href="#">
+            Github
+          </a>
+          <a className="text-lg text-gravel-bright" href="#">
+            Contact
+          </a>
+        </footer>
       </div>
     </>
   );
