@@ -1,4 +1,4 @@
-const defaultTheme = require("tailwindcss/defaultTheme")
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   experimental: {
     uniformColorPalette: true,
@@ -15,6 +15,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["'Inter'", "Inter", ...defaultTheme.fontFamily.sans],
+      display: ["'Radio Grotesk'","Radio Grotesk", ...defaultTheme.fontFamily.sans],
     },
     extend: {
       colors: {

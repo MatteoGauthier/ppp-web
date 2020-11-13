@@ -1,3 +1,5 @@
+import Link from "next/link";
+import Title from './Text/Title'
 const JobSectionB = () => {
   return (
     <div className="flex flex-row-reverse bg-white card">
@@ -7,7 +9,7 @@ const JobSectionB = () => {
         <img className="object-cover w-4/12 sliced-image-alt" src="/images/_-RFJf6-VM0.jpg" alt="" />
       </div>
       <div className="flex flex-col items-end justify-center w-7/12 pr-8 space-y-2 text-right">
-        <h2 className="text-6xl leading-tight text-black-side font-radio-grotesk font-bold">Motion Designer</h2>
+        <Title>Product Designer</Title>
         <p className="text-lg text-gravel">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan ac aliquam tempor, ut tincidunt nunc vel et.
           Condimentum consequat tempus, eu risus, augue massa leo. Netus cursus velit placerat egestas a, ultrices vel.
@@ -15,9 +17,9 @@ const JobSectionB = () => {
           aliquam, varius tortor. Proin quis tincidunt pulvinar in. Enim auctor justo at dictum viverra non. Proin
           volutpat cursus nisl risus elit ultrices tempus luctus et.
         </p>
-        <a href="#" className="link-alt">
-          Découvrir le métier de Product Designer →
-        </a>
+        <Link href="/motion-designer">
+          <a className="link-alt">Découvrir le métier de Product Designer →</a>
+        </Link>
       </div>
     </div>
   );

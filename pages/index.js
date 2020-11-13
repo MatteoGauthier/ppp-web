@@ -1,44 +1,17 @@
-import Image from "next/image";
-import Head from 'next/head'
 
-import { CreatorName, ProjectName } from "../components/svg";
 import JobSectionA from "../components/JobSectionA";
 import JobSectionB from "../components/JobSectionB";
 import JobSectionC from "../components/JobSectionC";
+import Layout from "../components/layout";
 
 export default function IndexPage() {
   return (
     <>
-      <Head>
-        <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.woff" as="font" crossOrigin="" />
-        <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.woff2" as="font" crossOrigin="" />
-        <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.svg" as="font" crossOrigin="" />
-      </Head>
-      <div className="h-full pt-24 bg-gradient-to-b from-darkA to-darkB">
-        <main className="max-w-screen-xl mx-auto mb-12 main">
-          <div className="flex justify-between px-3 pb-3 uppercase text-yellowLight">
-            <ProjectName /> <CreatorName />
-            {/* <span>Métiers du numérique</span>
-          <span>vanon borget - Mattèo gauthier</span> */}
-          </div>
-          <div className="overflow-hidden rounded">
-            <JobSectionA />
-            <JobSectionB />
-            <JobSectionC />
-          </div>
-        </main>
-        <footer className="flex items-center justify-center pt-12 pb-24 space-x-10">
-          <a className="text-lg text-gravel-bright" href="#">
-            À propos
-          </a>
-          <a className="text-lg text-gravel-bright" href="#">
-            Github
-          </a>
-          <a className="text-lg text-gravel-bright" href="#">
-            Contact
-          </a>
-        </footer>
-      </div>
+      <Layout>
+        <JobSectionA />
+        <JobSectionB />
+        <JobSectionC />
+      </Layout>
     </>
   );
 }
