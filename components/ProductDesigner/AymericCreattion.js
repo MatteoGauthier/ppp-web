@@ -2,7 +2,6 @@ import { ArrowDown, ArrowLeft, DribbleIcon, TwitterIcon, LinkedinIcon, BehanceIc
 import { useEffect } from "react";
 import "lite-youtube-embed/src/lite-yt-embed.css";
 
-import Image from "next/image";
 const AymericCreattion = () => {
   useEffect(() => {
     import("lite-youtube-embed");
@@ -13,28 +12,28 @@ const AymericCreattion = () => {
         <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-whats job-heading">
           Qu’est-ce qu’un Product Designer ?
         </h2>
-        <div className="flex space-x-5">
-          <div className="flex-1">
+        <div className="flex space-x-5 product-designer-text">
+          <p className="flex-1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor mattis in at morbi est pellentesque pretium.
             Tempus diam eu augue phasellus posuere. Sit maecenas sed pulvinar nullam viverra bibendum arcu aliquam. Et
             lacus, in fames bibendum enim odio urna. Sed aliquet euismod vel enim lorem interdum donec venenatis metus.
             Id dui, ipsum dui risus, tincidunt sit pellentesque. Lacus eget leo non amet, nec. Amet in sit orci,
             faucibus facilisi molestie{" "}
-          </div>
-          <div className="flex-1">
+          </p>
+          <p className="flex-1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor mattis in at morbi est pellentesque pretium.
             Tempus diam eu augue phasellus posuere. Sit maecenas sed pulvinar nullam viverra bibendum arcu aliquam. Et
             lacus, in fames bibendum enim odio urna. Sed aliquet euismod vel enim lorem interdum donec venenatis metus.
             Id dui, ipsum dui risus, tincidunt sit pellentesque. Lacus eget leo non amet, nec. Amet in sit orci,
             faucibus facilisi molestie{" "}
-          </div>
-          <div className="flex-1">
+          </p>
+          <p className="flex-1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor mattis in at morbi est pellentesque pretium.
             Tempus diam eu augue phasellus posuere. Sit maecenas sed pulvinar nullam viverra bibendum arcu aliquam. Et
             lacus, in fames bibendum enim odio urna. Sed aliquet euismod vel enim lorem interdum donec venenatis metus.
             Id dui, ipsum dui risus, tincidunt sit pellentesque. Lacus eget leo non amet, nec. Amet in sit orci,
             faucibus facilisi molestie{" "}
-          </div>
+          </p>
         </div>
       </div>
 
@@ -42,8 +41,8 @@ const AymericCreattion = () => {
         <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-parcours job-heading">
           Quels parcours-étude ?
         </h2>
-        <div className="flex space-x-5">
-          <div className="w-2/3 ">
+        <div className="flex space-x-5 product-designer-text">
+          <p className="w-2/3 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim curabitur aliquet euismod risus volutpat
             aliquam leo neque. Mauris eleifend ullamcorper tortor, nulla purus morbi et posuere. At arcu sed hendrerit
             morbi nec dolor. Suspendisse eu elementum amet lorem cras egestas cras. Vestibulum eu, mauris non hac est
@@ -53,14 +52,14 @@ const AymericCreattion = () => {
             nam. Integer mauris convallis massa diam facilisis ut posuere. Sodales at auctor mauris, viverra
             scelerisque. Nunc eu nisl porta viverra. Gravida adipiscing at purus volutpat a, nec. Sed viverra ac,
             natoque duis dolor. Scelerisque scelerisque suspendisse.
-          </div>
-          <div className="w-1/3 ">
+          </p>
+          <p className="w-1/3 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor mattis in at morbi est pellentesque pretium.
             Tempus diam eu augue phasellus posuere. Sit maecenas sed pulvinar nullam viverra bibendum arcu aliquam. Et
             lacus, in fames bibendum enim odio urna. Sed aliquet euismod vel enim lorem interdum donec venenatis metus.
             Id dui, ipsum dui risus, tincidunt sit pellentesque. Lacus eget leo non amet, nec. Amet in sit orci,
             faucibus facilisi molestie{" "}
-          </div>
+          </p>
         </div>
       </div>
 
@@ -68,8 +67,8 @@ const AymericCreattion = () => {
         <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-itw job-heading">
           L’interview d’un Product Designer
         </h2>
-        <div className="flex space-x-5">
-          <div className="w-2/3 ">
+        <div className="flex space-x-5 product-designer-text">
+          <p className="w-2/3 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim curabitur aliquet euismod risus volutpat
             aliquam leo neque. Mauris eleifend ullamcorper tortor, nulla purus morbi et posuere. At arcu sed hendrerit
             morbi nec dolor. Suspendisse eu elementum amet lorem cras egestas cras. Vestibulum eu, mauris non hac est
@@ -79,7 +78,7 @@ const AymericCreattion = () => {
             nam. Integer mauris convallis massa diam facilisis ut posuere. Sodales at auctor mauris, viverra
             scelerisque. Nunc eu nisl porta viverra. Gravida adipiscing at purus volutpat a, nec. Sed viverra ac,
             natoque duis dolor. Scelerisque scelerisque suspendisse.
-          </div>
+          </p>
           <div className="w-1/3 ">
             <lite-youtube
               class="rounded-lg shadow-lg"
@@ -97,8 +96,8 @@ const AymericCreattion = () => {
         <div className="grid grid-cols-6 grid-rows-2 gap-5 job-grid-first">
           <div className="flex flex-col items-center justify-between w-full px-2.5 py-4 rounded-lg ">
             <div>
-              <p className="w-full text-2xl font-bold leading-none text-cool-gray-900">Dark Calendar App</p>
-              <p className="self-start text-lg leading-normal text-gray-700 pt-2.5">UX - UI</p>
+              <span className="w-full text-2xl font-bold leading-none text-cool-gray-900">Dark Calendar App</span>
+              <span className="self-start text-lg leading-normal text-gray-700 pt-2.5">UX - UI</span>
             </div>
             <div className="relative self-end">
               <ArrowDown />
@@ -117,12 +116,12 @@ const AymericCreattion = () => {
               <ArrowLeft />
             </div>
             <div>
-              <p className="self-start text-lg leading-normal text-gray-700">Mobile design</p>
-              <p className="w-full text-2xl font-bold leading-none pt-2.5 text-cool-gray-900">Dorie hiking App</p>
+              <span className="self-start text-lg leading-normal text-gray-700">Mobile design</span>
+              <span className="w-full text-2xl font-bold leading-none pt-2.5 text-cool-gray-900">Dorie hiking App</span>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center col-span-2 space-y-4" id="follow-aymeric">
-            <p className="text-3xl font-bold text-center text-white">Follow Aymeric on</p>
+            <span className="text-3xl font-bold text-center text-white">Follow Aymeric on</span>
             <div className="flex space-x-4">
               <DribbleIcon />
               <TwitterIcon />
@@ -132,10 +131,10 @@ const AymericCreattion = () => {
           </div>
           <div className="flex flex-col items-center justify-between w-full px-2.5 py-4 rounded-lg ">
             <div>
-              <p className="self-start text-lg leading-normal text-right text-gray-700">Mobile Design</p>
-              <p className="w-full text-2xl font-bold leading-none text-right text-cool-gray-900 pt-2.5">
+              <span className="self-start text-lg leading-normal text-right text-gray-700">Mobile Design</span>
+              <span className="w-full text-2xl font-bold leading-none text-right text-cool-gray-900 pt-2.5">
                 EverReady App
-              </p>
+              </span>
             </div>
             <div className="relative self-end">
               <ArrowDown />

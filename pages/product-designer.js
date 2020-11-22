@@ -1,11 +1,15 @@
 import Title from "../components/Text/Title";
 import Layout from "../components/layout";
 import AymericCreattion from "../components/ProductDesigner/AymericCreattion";
+import Head from 'next/head'
 export default function ProductDesigner() {
   return (
     <>
+    <Head>
+      <title>Product Designer - Présentation de métiers du numérique</title>
+    </Head>
       <Layout>
-        <div className="bg-white">
+        <div className="bg-white product-designer">
           <div className="p-8">
             <Title className="leading-none" as="h1">
               Product Designer
@@ -26,7 +30,7 @@ export default function ProductDesigner() {
                 d’un site web regroupant les informations à propos de métiers abordés ainsi que les interviews que nous
                 avons réalisé.
               </p>
-              <div className="flex items-center self-end w-full space-x-2">
+              <div className="flex items-center space-x-2 justify-self-end">
                 <p className="flex items-center justify-center text-sm text-gray-300">Si vous souhaitez découvrir nos profils <img className="inline w-4 ml-2 align-middle" src="/images/smiling-face.png" alt=""/></p>
                 <div className="flex items-center px-2 py-1 bg-white rounded justify-centers">
                   <p className="text-sm">Vanon Borget ↗ </p>

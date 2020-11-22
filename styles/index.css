@@ -9,15 +9,28 @@
 }
 
 @font-face {
-  font-family: "Radio Grotesk";
-  src: url("/fonts/subset-RadioGrotesk-Bold.woff2") format("woff2"),
-    url("/fonts/subset-RadioGrotesk-Bold.woff") format("woff"),
-    url("/fonts/subset-RadioGrotesk-Bold.svg#RadioGrotesk-Bold") format("svg");
+  font-family: 'Radio Grotesk';
+  src: url('/fonts/subset-RadioGrotesk-Bold.woff2') format('woff2'),
+      url('/fonts/subset-RadioGrotesk-Bold.woff') format('woff'),
+      url('/fonts/subset-RadioGrotesk-Bold.svg#RadioGrotesk-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+20, U+44, U+4D, U+50, U+56, U+61, U+63-65, U+67, U+69, U+6E, U+6F, U+72-75, U+E9;
+  
+unicode-range: U+20,U+2D,U+3F,U+41,U+44,U+4C,U+50,U+51,U+61,U+63-65,U+67,U+69,U+6C-77,U+79,U+E9,U+2019
 }
+
+@font-face {
+  font-family: 'Radio Grotesk';
+  src: url('/fonts/subset-RadioGrotesk-Regular.woff2') format('woff2'),
+      url('/fonts/subset-RadioGrotesk-Regular.woff') format('woff'),
+      url('/fonts/subset-RadioGrotesk-Regular.svg#RadioGrotesk-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20,U+2D,U+3F,U+41,U+44,U+4C,U+50,U+51,U+61,U+63-65,U+67,U+69,U+6C-77,U+79,U+E9,U+2019
+}
+
 
 .image-section .sliced-image {
   clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
@@ -63,7 +76,7 @@
 }
 
 .job-heading-two::before {
-  background: linear-gradient(180deg, #e7fff0 0%, #e7fff0 100%);
+  background: linear-gradient(180deg, #e7fff0 0%, #e7eeff 100%);
 }
 .job-heading-whats::before {
   background: linear-gradient(180deg, #E7F6FF 0%, #FFFFE7 100%);
@@ -108,4 +121,11 @@
     rgba(29, 161, 242, 0.8) 100%,
     rgba(29, 161, 242, 0.8) 100%
   );
+}
+
+.product-designer span {
+  display: block;
+}
+.product-designer-text p {
+  @apply text-cool-gray-800 ;
 }
