@@ -1,10 +1,99 @@
 import { ArrowDown, ArrowLeft, DribbleIcon, TwitterIcon, LinkedinIcon, BehanceIcon } from "../svg";
+import { useEffect } from "react";
+import "lite-youtube-embed/src/lite-yt-embed.css";
+
 import Image from "next/image";
 const AymericCreattion = () => {
+  useEffect(() => {
+    import("lite-youtube-embed");
+  }, []);
   return (
-    <div>
-      <div className="p-8">
-        <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-two">Les créations d’Aymeric</h2>
+    <div className="space-y-8">
+      <div className="px-8">
+        <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-whats job-heading">
+          Qu’est-ce qu’un Product Designer ?
+        </h2>
+        <div className="flex space-x-5">
+          <div className="flex-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor mattis in at morbi est pellentesque pretium.
+            Tempus diam eu augue phasellus posuere. Sit maecenas sed pulvinar nullam viverra bibendum arcu aliquam. Et
+            lacus, in fames bibendum enim odio urna. Sed aliquet euismod vel enim lorem interdum donec venenatis metus.
+            Id dui, ipsum dui risus, tincidunt sit pellentesque. Lacus eget leo non amet, nec. Amet in sit orci,
+            faucibus facilisi molestie{" "}
+          </div>
+          <div className="flex-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor mattis in at morbi est pellentesque pretium.
+            Tempus diam eu augue phasellus posuere. Sit maecenas sed pulvinar nullam viverra bibendum arcu aliquam. Et
+            lacus, in fames bibendum enim odio urna. Sed aliquet euismod vel enim lorem interdum donec venenatis metus.
+            Id dui, ipsum dui risus, tincidunt sit pellentesque. Lacus eget leo non amet, nec. Amet in sit orci,
+            faucibus facilisi molestie{" "}
+          </div>
+          <div className="flex-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor mattis in at morbi est pellentesque pretium.
+            Tempus diam eu augue phasellus posuere. Sit maecenas sed pulvinar nullam viverra bibendum arcu aliquam. Et
+            lacus, in fames bibendum enim odio urna. Sed aliquet euismod vel enim lorem interdum donec venenatis metus.
+            Id dui, ipsum dui risus, tincidunt sit pellentesque. Lacus eget leo non amet, nec. Amet in sit orci,
+            faucibus facilisi molestie{" "}
+          </div>
+        </div>
+      </div>
+
+      <div className="px-8">
+        <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-parcours job-heading">
+          Quels parcours-étude ?
+        </h2>
+        <div className="flex space-x-5">
+          <div className="w-2/3 ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim curabitur aliquet euismod risus volutpat
+            aliquam leo neque. Mauris eleifend ullamcorper tortor, nulla purus morbi et posuere. At arcu sed hendrerit
+            morbi nec dolor. Suspendisse eu elementum amet lorem cras egestas cras. Vestibulum eu, mauris non hac est
+            arcu proin. Amet non, neque blandit posuere. Pretium ipsum sit consectetur accumsan tellus. Aliquam amet,
+            massa est ornare semper dignissim. Non sem hendrerit varius lorem egestas et. Lorem neque dui ornare auctor
+            enim arcu. Purus a amet, erat et integer est elementum urna. In elit eget mattis laoreet nibh in id cursus
+            nam. Integer mauris convallis massa diam facilisis ut posuere. Sodales at auctor mauris, viverra
+            scelerisque. Nunc eu nisl porta viverra. Gravida adipiscing at purus volutpat a, nec. Sed viverra ac,
+            natoque duis dolor. Scelerisque scelerisque suspendisse.
+          </div>
+          <div className="w-1/3 ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor mattis in at morbi est pellentesque pretium.
+            Tempus diam eu augue phasellus posuere. Sit maecenas sed pulvinar nullam viverra bibendum arcu aliquam. Et
+            lacus, in fames bibendum enim odio urna. Sed aliquet euismod vel enim lorem interdum donec venenatis metus.
+            Id dui, ipsum dui risus, tincidunt sit pellentesque. Lacus eget leo non amet, nec. Amet in sit orci,
+            faucibus facilisi molestie{" "}
+          </div>
+        </div>
+      </div>
+
+      <div className="px-8">
+        <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-itw job-heading">
+          L’interview d’un Product Designer
+        </h2>
+        <div className="flex space-x-5">
+          <div className="w-2/3 ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim curabitur aliquet euismod risus volutpat
+            aliquam leo neque. Mauris eleifend ullamcorper tortor, nulla purus morbi et posuere. At arcu sed hendrerit
+            morbi nec dolor. Suspendisse eu elementum amet lorem cras egestas cras. Vestibulum eu, mauris non hac est
+            arcu proin. Amet non, neque blandit posuere. Pretium ipsum sit consectetur accumsan tellus. Aliquam amet,
+            massa est ornare semper dignissim. Non sem hendrerit varius lorem egestas et. Lorem neque dui ornare auctor
+            enim arcu. Purus a amet, erat et integer est elementum urna. In elit eget mattis laoreet nibh in id cursus
+            nam. Integer mauris convallis massa diam facilisis ut posuere. Sodales at auctor mauris, viverra
+            scelerisque. Nunc eu nisl porta viverra. Gravida adipiscing at purus volutpat a, nec. Sed viverra ac,
+            natoque duis dolor. Scelerisque scelerisque suspendisse.
+          </div>
+          <div className="w-1/3 ">
+            <lite-youtube
+              class="rounded-lg shadow-lg"
+              videoId="2-g96TuTVSQ"
+              playlabel="Interview Aymeric Delpeuch - MMI 2020"
+            />
+          </div>
+        </div>
+      </div>
+      
+      <div className="px-8">
+        <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading job-heading-two">
+          Les créations d’Aymeric
+        </h2>
         <div className="grid grid-cols-6 grid-rows-2 gap-5 job-grid-first">
           <div className="flex flex-col items-center justify-between w-full px-2.5 py-4 rounded-lg ">
             <div>
@@ -84,6 +173,7 @@ const AymericCreattion = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };

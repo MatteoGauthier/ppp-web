@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "lite-youtube-embed": "^0.1.2",
     "next": "^10.0.2",
     "postcss-preset-env": "^6.7.0",
     "react": "17.0.1",

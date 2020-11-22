@@ -45,21 +45,37 @@
   z-index: 3;
 }
 
-.job-heading-two::before {
+.job-heading::before {
   content: "";
   position: absolute;
   display: block;
-  width: 105%;
+  width: 103%;
   margin-left: -2.5%;
   height: 23px;
-  /* background: red; */
   @apply bottom-0;
   z-index: -1;
-  background: linear-gradient(180deg, #e7fff0 0%, #e7fff0 100%);
+  margin-bottom: -5px;
 }
-.job-heading-two {
+
+.job-heading {
   display: inline-block;
   transform: rotate(-1deg);
+}
+
+.job-heading-two::before {
+  background: linear-gradient(180deg, #e7fff0 0%, #e7fff0 100%);
+}
+.job-heading-whats::before {
+  background: linear-gradient(180deg, #E7F6FF 0%, #FFFFE7 100%);
+}
+.job-heading-parcours::before {
+  background: linear-gradient(180deg, #FFE7E7 0%, #F4E7FF 100%);
+
+}
+.job-heading-itw::before {
+  background: linear-gradient(180deg, #E7F3FF 0%, #F1E7FF 100%);
+
+
 }
 
 .job-grid-first > * {
@@ -71,6 +87,25 @@
 }
 
 #follow-aymeric {
-  background: linear-gradient(90deg, rgba(0, 87, 255, 0.8) 0%, rgba(0, 88, 255, 0.8) 6.67%, rgba(1, 90, 255, 0.8) 13.33%, rgba(2, 93, 254, 0.8) 19.99%, rgba(2, 93, 254, 0.8) 20%, rgba(4, 98, 253, 0.8) 26.67%, rgba(7, 104, 252, 0.8) 33.33%, rgba(10, 112, 251, 0.8) 40%, rgba(13, 120, 249, 0.8) 46.67%, rgba(16, 128, 248, 0.8) 53.33%, rgba(19, 136, 246, 0.8) 60%, rgba(22, 144, 245, 0.8) 66.67%, rgba(25, 150, 244, 0.8) 73.33%, rgba(27, 155, 243, 0.8) 80%, rgba(28, 158, 242, 0.8) 86.67%, rgba(29, 160, 242, 0.8) 93.33%, rgba(29, 161, 242, 0.8) 100%, rgba(29, 161, 242, 0.8) 100%);
-
+  background: linear-gradient(
+    90deg,
+    rgba(0, 87, 255, 0.8) 0%,
+    rgba(0, 88, 255, 0.8) 6.67%,
+    rgba(1, 90, 255, 0.8) 13.33%,
+    rgba(2, 93, 254, 0.8) 19.99%,
+    rgba(2, 93, 254, 0.8) 20%,
+    rgba(4, 98, 253, 0.8) 26.67%,
+    rgba(7, 104, 252, 0.8) 33.33%,
+    rgba(10, 112, 251, 0.8) 40%,
+    rgba(13, 120, 249, 0.8) 46.67%,
+    rgba(16, 128, 248, 0.8) 53.33%,
+    rgba(19, 136, 246, 0.8) 60%,
+    rgba(22, 144, 245, 0.8) 66.67%,
+    rgba(25, 150, 244, 0.8) 73.33%,
+    rgba(27, 155, 243, 0.8) 80%,
+    rgba(28, 158, 242, 0.8) 86.67%,
+    rgba(29, 160, 242, 0.8) 93.33%,
+    rgba(29, 161, 242, 0.8) 100%,
+    rgba(29, 161, 242, 0.8) 100%
+  );
 }

@@ -7,9 +7,8 @@ export default function ProductDesigner() {
       <Layout>
         <div className="bg-white">
             <div className="p-8">
-                <Title color="white" className="leading-none" as="h1">Product Designer</Title>
+                <Title className="leading-none" as="h1">Product Designer</Title>
             </div>
-          <h1>Hey bgs</h1>
           <AymericCreattion/>
         </div>
       </Layout>
