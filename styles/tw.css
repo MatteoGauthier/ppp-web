@@ -10,10 +10,14 @@
 
 
 .link {
-  @apply text-xl font-medium text-blue-clay;
+  @apply text-xl ;
+  @apply font-medium ;
+  @apply  text-blue-clay;
 }
 .link-alt {
-  @apply text-xl font-medium text-blue-clay-alt;
+  @apply text-xl ;
+  @apply font-medium ;
+  @apply text-blue-clay-alt;
 }
 
 /* Start purging... */

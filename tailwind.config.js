@@ -1,7 +1,10 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
+  presets: [
+    require('full-palette')
+  ],
   experimental: {
-    uniformColorPalette: true,
+    // uniformColorPalette: true,
     applyComplexClasses: true,
     extendedSpacingScale: true,
     defaultLineHeights: true,
@@ -31,6 +34,9 @@ module.exports = {
         "deep-black": "#090909",
         "black-side": "#151515",
       },
+      fontSize: {
+        '28': '1.75rem'
+      }
     },
   },
   variants: {},

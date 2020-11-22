@@ -9,17 +9,15 @@
 }
 
 @font-face {
-  font-family: 'Radio Grotesk';
-  src: url('/fonts/subset-RadioGrotesk-Bold.woff2') format('woff2'),
-      url('/fonts/subset-RadioGrotesk-Bold.woff') format('woff'),
-      url('/fonts/subset-RadioGrotesk-Bold.svg#RadioGrotesk-Bold') format('svg');
+  font-family: "Radio Grotesk";
+  src: url("/fonts/subset-RadioGrotesk-Bold.woff2") format("woff2"),
+    url("/fonts/subset-RadioGrotesk-Bold.woff") format("woff"),
+    url("/fonts/subset-RadioGrotesk-Bold.svg#RadioGrotesk-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+20,U+44,U+4D,U+50,U+56,U+61,U+63-65,U+67,U+69,U+6E,U+6F,U+72-75,U+E9;
+  unicode-range: U+20, U+44, U+4D, U+50, U+56, U+61, U+63-65, U+67, U+69, U+6E, U+6F, U+72-75, U+E9;
 }
-
-
 
 .image-section .sliced-image {
   clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
@@ -27,10 +25,10 @@
 }
 
 .image-section .sliced-image:nth-child(2) {
-    margin-left: -10%;
+  margin-left: -10%;
 }
 .image-section .sliced-image:nth-child(3) {
-    margin-left: -14%;
+  margin-left: -14%;
 }
 
 .image-section .sliced-image-alt {
@@ -39,10 +37,40 @@
 }
 
 .image-section .sliced-image-alt:nth-child(2) {
-    margin-left: -11%;
-    z-index: 2;
-  }
-  .image-section .sliced-image-alt:nth-child(3) {
-    margin-left:-14%;
-    z-index: 3;
+  margin-left: -11%;
+  z-index: 2;
+}
+.image-section .sliced-image-alt:nth-child(3) {
+  margin-left: -14%;
+  z-index: 3;
+}
+
+.job-heading-two::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 105%;
+  margin-left: -2.5%;
+  height: 23px;
+  /* background: red; */
+  @apply bottom-0;
+  z-index: -1;
+  background: linear-gradient(180deg, #e7fff0 0%, #e7fff0 100%);
+}
+.job-heading-two {
+  display: inline-block;
+  transform: rotate(-1deg);
+}
+
+.job-grid-first > * {
+  @apply bg-white;
+  @apply h-full;
+  @apply w-full;
+  @apply rounded-lg;
+  box-shadow: 0px 3px 16px 0px rgba(37, 36, 56, 0.1);
+}
+
+#follow-aymeric {
+  background: linear-gradient(90deg, rgba(0, 87, 255, 0.8) 0%, rgba(0, 88, 255, 0.8) 6.67%, rgba(1, 90, 255, 0.8) 13.33%, rgba(2, 93, 254, 0.8) 19.99%, rgba(2, 93, 254, 0.8) 20%, rgba(4, 98, 253, 0.8) 26.67%, rgba(7, 104, 252, 0.8) 33.33%, rgba(10, 112, 251, 0.8) 40%, rgba(13, 120, 249, 0.8) 46.67%, rgba(16, 128, 248, 0.8) 53.33%, rgba(19, 136, 246, 0.8) 60%, rgba(22, 144, 245, 0.8) 66.67%, rgba(25, 150, 244, 0.8) 73.33%, rgba(27, 155, 243, 0.8) 80%, rgba(28, 158, 242, 0.8) 86.67%, rgba(29, 160, 242, 0.8) 93.33%, rgba(29, 161, 242, 0.8) 100%, rgba(29, 161, 242, 0.8) 100%);
+
 }
