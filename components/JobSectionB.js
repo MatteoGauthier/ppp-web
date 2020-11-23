@@ -18,7 +18,7 @@ const JobSectionB = () => {
           volutpat cursus nisl risus elit ultrices tempus luctus et.
         </p>
         <Link href="/motion-designer">
-          <a className="link-alt">Découvrir le métier de Product Designer →</a>
+          <a className="link-alt">Découvrir le métier de Motion Designer →</a>
         </Link>
       </div>
     </div>
