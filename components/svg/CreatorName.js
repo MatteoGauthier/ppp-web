@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from "react";
 
 function CreatorName(props) {
   return (
@@ -9,7 +9,7 @@ function CreatorName(props) {
         fillOpacity={0.9}
       />
     </svg>
-  )
+  );
 }
 
-export default CreatorName
+export default CreatorName;

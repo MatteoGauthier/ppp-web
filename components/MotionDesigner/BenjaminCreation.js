@@ -1,14 +1,10 @@
 import { ArrowDown, ArrowLeft, DribbleIcon, TwitterIcon, LinkedinIcon, BehanceIcon } from "../svg";
 import { useEffect } from "react";
 import "lite-youtube-embed/src/lite-yt-embed.css";
-import Whats from "./Whats";
-import ITW from "./ITW";
 
 const BenjaminCreation = () => {
   return (
     <div className="space-y-8">
-      
-
       <div className="px-8">
         <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading job-heading-two">
           Les créations d’Aymeric

@@ -8,7 +8,7 @@ export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>Product Designer - Présentation de métiers du numérique</title>
+        <title>Présentation de métiers du numérique - Vanon Borget & Mattèo Gauthier</title>
       </Head>
       <Layout>
         <JobSectionA />

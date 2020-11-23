@@ -1,5 +1,5 @@
 export default function Title({ children, as, color }) {
-  const textColor = color == "white" ? "text-white" :  "text-black-side"
+  const textColor = color == "white" ? "text-white" : "text-black-side";
   return (
     <>
       {as == "h1" ? (
