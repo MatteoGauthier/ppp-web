@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Title from './Text/Title'
+import Title from "./Text/Title";
 const JobSectionB = () => {
   return (
     <div className="flex flex-row-reverse bg-white card">

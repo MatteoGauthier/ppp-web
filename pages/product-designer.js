@@ -25,7 +25,7 @@ export default function ProductDesigner() {
             <ITW />
             <AymericCreation />
           </div>
-          <InfoSection/>
+          <InfoSection />
         </div>
       </Layout>
     </>

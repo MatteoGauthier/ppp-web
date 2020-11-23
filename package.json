@@ -21,5 +21,8 @@
     "full-palette": "^1.1.0",
     "postcss": "^8.1.9",
     "tailwindcss": "^2.0.1"
+  },
+  "prettier": {
+    "printWidth": 120
   }
 }

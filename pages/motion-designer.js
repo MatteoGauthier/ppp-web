@@ -26,7 +26,7 @@ export default function MotionDesigner() {
             <ITW />
             <BenjaminCreation />
           </div>
-          <InfoSection/>
+          <InfoSection />
         </div>
       </Layout>
     </>
