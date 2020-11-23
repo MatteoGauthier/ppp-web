@@ -79,7 +79,7 @@ unicode-range: U+20,U+2D,U+3F,U+41,U+44,U+4C,U+50,U+51,U+61,U+63-65,U+67,U+69,U+
   background: linear-gradient(180deg, #e7fff0 0%, #e7eeff 100%);
 }
 .job-heading-whats::before {
-  background: linear-gradient(180deg, #E7F6FF 0%, #FFFFE7 100%);
+  background: linear-gradient(180deg, #E7F6FF 0%, #eae7ff 100%);
 }
 .job-heading-parcours::before {
   background: linear-gradient(180deg, #FFE7E7 0%, #F4E7FF 100%);

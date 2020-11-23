@@ -26,7 +26,7 @@ const JobSectionC = () => {
           pulvinar semper tincidunt. Sem fames ac nulla in egestas ut velit morbi dolor quam.
         </p>
         <Link href="/videaste">
-          <a className="link">Découvrir le métier de Product Designer →</a>
+          <a className="link">Découvrir le métier de Vidéaste →</a>
         </Link>
       </div>
     </div>

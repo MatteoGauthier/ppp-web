@@ -9,7 +9,7 @@ const JobSectionB = () => {
         <img className="object-cover w-4/12 sliced-image-alt" src="/images/_-RFJf6-VM0.webp" alt="" />
       </div>
       <div className="flex flex-col items-end justify-center w-7/12 pr-8 space-y-2 text-right">
-        <Title>Product Designer</Title>
+        <Title>Motion Designer</Title>
         <p className="text-lg text-gravel">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan ac aliquam tempor, ut tincidunt nunc vel et.
           Condimentum consequat tempus, eu risus, augue massa leo. Netus cursus velit placerat egestas a, ultrices vel.
