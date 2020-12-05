@@ -9,28 +9,27 @@
 }
 
 @font-face {
-  font-family: 'Radio Grotesk';
-  src: url('/fonts/subset-RadioGrotesk-Bold.woff2') format('woff2'),
-      url('/fonts/subset-RadioGrotesk-Bold.woff') format('woff'),
-      url('/fonts/subset-RadioGrotesk-Bold.svg#RadioGrotesk-Bold') format('svg');
+  font-family: "Radio Grotesk";
+  src: url("/fonts/subset-RadioGrotesk-Bold.woff2") format("woff2"),
+    url("/fonts/subset-RadioGrotesk-Bold.woff") format("woff"),
+    url("/fonts/subset-RadioGrotesk-Bold.svg#RadioGrotesk-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-  
-unicode-range: U+20,U+2D,U+3F,U+41,U+44,U+4C,U+50,U+51,U+61,U+63-65,U+67,U+69,U+6C-77,U+79,U+E9,U+2019
+
+  unicode-range: U+20, U+2D, U+3F, U+41, U+44, U+4C, U+50, U+51, U+61, U+63-65, U+67, U+69, U+6C-77, U+79, U+E9, U+2019;
 }
 
 @font-face {
-  font-family: 'Radio Grotesk';
-  src: url('/fonts/subset-RadioGrotesk-Regular.woff2') format('woff2'),
-      url('/fonts/subset-RadioGrotesk-Regular.woff') format('woff'),
-      url('/fonts/subset-RadioGrotesk-Regular.svg#RadioGrotesk-Regular') format('svg');
+  font-family: "Radio Grotesk";
+  src: url("/fonts/subset-RadioGrotesk-Regular.woff2") format("woff2"),
+    url("/fonts/subset-RadioGrotesk-Regular.woff") format("woff"),
+    url("/fonts/subset-RadioGrotesk-Regular.svg#RadioGrotesk-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+20,U+2D,U+3F,U+41,U+44,U+4C,U+50,U+51,U+61,U+63-65,U+67,U+69,U+6C-77,U+79,U+E9,U+2019
+  unicode-range: U+20, U+2D, U+3F, U+41, U+44, U+4C, U+50, U+51, U+61, U+63-65, U+67, U+69, U+6C-77, U+79, U+E9, U+2019;
 }
-
 
 .image-section .sliced-image {
   clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
@@ -79,16 +78,13 @@ unicode-range: U+20,U+2D,U+3F,U+41,U+44,U+4C,U+50,U+51,U+61,U+63-65,U+67,U+69,U+
   background: linear-gradient(180deg, #e7fff0 0%, #e7eeff 100%);
 }
 .job-heading-whats::before {
-  background: linear-gradient(180deg, #E7F6FF 0%, #eae7ff 100%);
+  background: linear-gradient(180deg, #e7f6ff 0%, #eae7ff 100%);
 }
 .job-heading-parcours::before {
-  background: linear-gradient(180deg, #FFE7E7 0%, #F4E7FF 100%);
-
+  background: linear-gradient(180deg, #ffe7e7 0%, #f4e7ff 100%);
 }
 .job-heading-itw::before {
-  background: linear-gradient(180deg, #E7F3FF 0%, #F1E7FF 100%);
-
-
+  background: linear-gradient(180deg, #e7f3ff 0%, #f1e7ff 100%);
 }
 
 .job-grid-first > * {
@@ -127,15 +123,17 @@ unicode-range: U+20,U+2D,U+3F,U+41,U+44,U+4C,U+50,U+51,U+61,U+63-65,U+67,U+69,U+
   display: block;
 }
 .product-designer-text p {
-  @apply text-cool-gray-800 ;
+  @apply text-justify;
+  @apply text-lg;
+  @apply text-cool-gray-800;
 }
 .link {
-  @apply text-xl ;
-  @apply font-medium ;
-  @apply  text-blue-clay;
+  @apply text-xl;
+  @apply font-medium;
+  @apply text-blue-clay;
 }
 .link-alt {
-  @apply text-xl ;
-  @apply font-medium ;
+  @apply text-xl;
+  @apply font-medium;
   @apply text-blue-clay-alt;
 }

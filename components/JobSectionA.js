@@ -21,11 +21,10 @@ const JobSectionA = () => {
       <div className="flex flex-col justify-center w-7/12 pl-8 space-y-2">
         <Title color="white">Product Designer</Title>
         <p className="text-lg text-gray-clay">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor vulputate vel et in morbi amet. Tincidunt
-          condimentum nisi, quam eget posuere facilisi porta. Nisi, urna sit consequat id magna elementum leo. Feugiat
-          eu mi in dignissim vestibulum. Lectus facilisis fermentum platea id aliquet tellus vulputate enim. Nunc
-          adipiscing dolor dignissim ut. Ut aliquet sit aliquet egestas praesent elit non. Interdum eget eget ultrices
-          pulvinar semper tincidunt. Sem fames ac nulla in egestas ut velit morbi dolor quam.
+          Le product design est présent dans votre quotidien, dans votre placard, dans votre cuisine, il sait mettre vit
+          à vos objet du quotidien. Découvrez le métier de product designer à travers une description de son parcours et
+          de ses réalisations. Nous avons interviewé Aymeric Delpeuch lui-même Product Designer pour vous permettre de
+          mieux comprendre est d'avoir une approche réaliste du métier.
         </p>
         <Link href="/product-designer">
           <a className="link">Découvrir le métier de Product Designer →</a>

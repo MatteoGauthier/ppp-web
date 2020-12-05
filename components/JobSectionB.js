@@ -11,11 +11,10 @@ const JobSectionB = () => {
       <div className="flex flex-col items-end justify-center w-7/12 pr-8 space-y-2 text-right">
         <Title>Motion Designer</Title>
         <p className="text-lg text-gravel">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan ac aliquam tempor, ut tincidunt nunc vel et.
-          Condimentum consequat tempus, eu risus, augue massa leo. Netus cursus velit placerat egestas a, ultrices vel.
-          Cras habitant tempus ultrices urna vel neque. Aliquam viverra ac vel, iaculis ut. Suscipit nunc et diam
-          aliquam, varius tortor. Proin quis tincidunt pulvinar in. Enim auctor justo at dictum viverra non. Proin
-          volutpat cursus nisl risus elit ultrices tempus luctus et.
+          "Le motion design consiste à donner vie à du design, à des graphismes" c'est la définition que donne Benjamin
+          Ulmet à son métier de motion designer lors d'une interview réalisée pour mieux appréhender ce métier. Vous
+          pourrez aussi trouver une description de ce métier entre réalisation graphique et animation, ainsi que de son
+          parcours de formation.
         </p>
         <Link href="/motion-designer">
           <a className="link-alt">Découvrir le métier de Motion Designer →</a>

@@ -7,23 +7,18 @@ const Path = () => {
         Quels parcours-étude ?
       </h2>
       <div className="flex space-x-5 product-designer-text">
-        <p className="w-2/3 ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim curabitur aliquet euismod risus volutpat
-          aliquam leo neque. Mauris eleifend ullamcorper tortor, nulla purus morbi et posuere. At arcu sed hendrerit
-          morbi nec dolor. Suspendisse eu elementum amet lorem cras egestas cras. Vestibulum eu, mauris non hac est arcu
-          proin. Amet non, neque blandit posuere. Pretium ipsum sit consectetur accumsan tellus. Aliquam amet, massa est
-          ornare semper dignissim. Non sem hendrerit varius lorem egestas et. Lorem neque dui ornare auctor enim arcu.
-          Purus a amet, erat et integer est elementum urna. In elit eget mattis laoreet nibh in id cursus nam. Integer
-          mauris convallis massa diam facilisis ut posuere. Sodales at auctor mauris, viverra scelerisque. Nunc eu nisl
-          porta viverra. Gravida adipiscing at purus volutpat a, nec. Sed viverra ac, natoque duis dolor. Scelerisque
-          scelerisque suspendisse.
-        </p>
-        <p className="w-1/3 ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor mattis in at morbi est pellentesque pretium.
-          Tempus diam eu augue phasellus posuere. Sit maecenas sed pulvinar nullam viverra bibendum arcu aliquam. Et
-          lacus, in fames bibendum enim odio urna. Sed aliquet euismod vel enim lorem interdum donec venenatis metus. Id
-          dui, ipsum dui risus, tincidunt sit pellentesque. Lacus eget leo non amet, nec. Amet in sit orci, faucibus
-          facilisi molestie{" "}
+        <p className="col-count-3">
+          Pour devenir product designer on peut passer par le biais d'un BTS ou d'un Master 2. Au-delà des baccalauréats
+          généraux (filières scientifique, économique et sociale et littéraire), les baccalauréats techniques STI « Arts
+          appliqués » ou STD2A « design et arts appliqués » sont appréciés. Par la suite, plusieurs diplômes sont
+          possibles : les BTS « Arts Appliqués », « Conception de produits industriels », « Design de produits », «
+          design de communication espace et volume », d'un côté, ou un parcours plus universitaire comme une licence ou
+          un master, dans une filière sciences et technologie. L'idéal pour devenir product designer reste le diplôme
+          national d'art et technique (DNAT), spécialité « design de produit », aux Beaux Arts ou le Diplôme Supérieur
+          en Arts Appliqués (DSAA), à Bac +4 au sein d'une école d'arts appliqués. Dès bac +5, de nombreuses écoles
+          proposent un différent diplômes, comme le diplôme national supérieur d'expression plastique (DNSEP), le
+          diplôme de l'École nationale des arts décoratifs (ENSAD), ou encore le diplôme de création industrielle de
+          l'ENSCI.
         </p>
       </div>
     </div>
