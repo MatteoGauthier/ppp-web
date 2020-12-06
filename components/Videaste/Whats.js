@@ -3,35 +3,22 @@ import React from "react";
 const Whats = () => {
   return (
     <div className="px-8">
-      <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-whats job-heading">
-        Qu’est-ce qu’un Product Designer ?
+      <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-whats job-heading" id="whats">
+        Qu’est-ce qu’un Vidéaste ?
       </h2>
       <div className="flex space-x-5 product-designer-text">
         <p className="col-count-3">
-          Le travail du Product Designer est présent dans toutes sortes d’objets du quotidien. Liant efficacité et
-          créativité, le Product Designer conçoit l’aspect du produit, les formes, les volumes, la taille, la matière,
-          les couleurs...Il façonne tous les objets de consommation. C’est un spécialiste des produits innovants. Le
-          Product Designer prend en considération aussi bien l’expérience client que les exigences et les objectifs de
-          l’entreprise qui l’emploie. Il intègre plusieurs contraintes liées au coût de fabrication du produit, au
-          consommateur ciblé par ce dernier, à l’ergonomie du design, aux normes environnementales et sécuritaires,
-          indispensable pour la finalisation d’un produit. Il est aussi confronté à des contraintes esthétiques pour
-          plaire à la plupart des consommateurs, il doit donc rester informé des dernières modes et de l’évolutions des
-          dernières tendances sur le marché. Avant tout le Product Designer peut être spécialiste dans plusieurs
-          domaines : Dans l’User eXperience Design qui consiste à créer la logique du produit et d'améliorer
-          l’expérience utilisateur ce qui améliore la satisfaction du client. C’est avant tout un travail de recherche
-          et de réflexion. Dans le design d’interaction qui consiste à choisir la manière dont un produit va se
-          comporter dans le dialogue avec un utilisateur. Dans User interface design qui consiste à concevoir le côté
-          esthétique de l’interface utilisateur, de la façade du produit. Dans l’architecture d’information c'est-à-dire
-          dans la création de la structure du produit, aussi bien dans l’organisation que dans le contenu. Ensuite, il
-          fait appel à ses compétences en marketing pour suivre la trajectoire de son produit, de sa création à sa
-          fabrication, jusqu'à son achat et son utilisation. Du côté de ses compétences, le Product Designer idéal est
-          créatif, rigoureux et bon communicant. Il a aussi des notions en développement (HTML, CSS, JavaScript), pour
-          mieux communiquer avec les développeurs qui l'entourent et trouver un bon équilibre entre les besoins du
-          client et ceux de l’entreprise. Toutefois, la clé du succès est une bonne capacité d’adaptation pour son
-          client. Il doit aimer le travail en équipe, qui est indispensable, et ne pas avoir peur de résoudre des
-          problèmes. Il doit aussi avoir certaines compétences informatiques puisqu'au quotidien, il utilise la suite
-          Adobe (avec Photoshop, InDesign, etc.), dont il doit avoir une parfaite maîtrise. Une bonne connaissance de
-          l’anglais est aussi cruciale pour répondre aux demandes de tous types de clients.
+          Un vidéaste est chargé de concevoir et réaliser des programmes vidéo. Il doit gérer, coordonner et faire le
+          suivi d’un projet vidéo de A à Z et par-dessus tout optimiser les moyens financiers, humains et matériels pour
+          que le projet coûte le moins cher possible. Ses tâches sont diverses et varient en fonction de si l’on
+          travaille dans une entreprise ou dans le cinéma comme réalisateur mais il doit généralement encadrer une
+          équipe de production vidéo. Le vidéaste doit avoir des compétences en conception vidéo et en production
+          audiovisuelle. En effet, les connaissances des techniques de gestion du son et de l’image sont des compétences
+          essentielles dans ce domaine. La connaissance de tous les métiers de l’audiovisuel est aussi primordiale pour
+          une bonne compréhension et coordination au sein des différents corps de métiers. Dans le cas des vidéastes
+          cinéastes, ce dernier nécessite une maîtrise des techniques d’écriture du scénario et des connaissances en
+          droit du cinéma. Pour finir, le vidéaste doit bien évidemment maîtriser les logiciels d’édition vidéo
+          (notamment en post-production) et de bureautique (durant la pré-production).
         </p>
       </div>
     </div>

@@ -6,7 +6,7 @@ const ITW = () => {
   }, []);
   return (
     <div className="px-8">
-      <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-itw job-heading">
+      <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-itw job-heading" id="itw">
         L’interview d’un Motion Designer
       </h2>
       <div className="flex space-x-5 product-designer-text">
@@ -21,8 +21,8 @@ const ITW = () => {
         <div className="w-1/3 ">
           <lite-youtube
             class="rounded-lg shadow-lg"
-            videoId="2-g96TuTVSQ"
-            playlabel="Interview Aymeric Delpeuch - MMI 2020"
+            videoId="1WXeh5-z_64"
+            playlabel="Interview Benjamin Ulmet - MMI 2020"
           />
         </div>
       </div>

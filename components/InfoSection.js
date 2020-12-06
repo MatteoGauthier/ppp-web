@@ -21,7 +21,7 @@ const InfoSection = () => {
             <a href="#" className="flex items-center px-2 py-1 bg-white rounded justify-centers">
               <p className="text-sm">Vanon Borget ↗ </p>
             </a>
-            <a href="#" className="flex items-center justify-center px-2 py-1 bg-white rounded">
+            <a href="https://mattèo.dev" className="flex items-center justify-center px-2 py-1 bg-white rounded">
               <p className="text-sm">Mattèo Gauthier ↗</p>
             </a>
           </div>

@@ -92,6 +92,13 @@
   @apply h-full;
   @apply w-full;
   @apply rounded-lg;
+  @apply hover:scale-105;
+  @apply focus:scale-105;
+  @apply focus:outline-none;
+  @apply transform-gpu;
+  @apply transition-all;
+  @apply duration-300;
+  @apply ease-out;
   box-shadow: 0px 3px 16px 0px rgba(37, 36, 56, 0.1);
 }
 

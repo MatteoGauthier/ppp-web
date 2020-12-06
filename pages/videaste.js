@@ -1,12 +1,12 @@
 import Title from "../components/Text/Title";
 import Layout from "../components/layout";
 import Head from "next/head";
-import Whats from "../components/ProductDesigner/Whats";
-import Path from "../components/ProductDesigner/Path";
-import ITW from "../components/ProductDesigner/ITW";
+import Whats from "../components/Videaste/Whats";
+import Path from "../components/Videaste/Path";
 import InfoSection from "../components/InfoSection";
 import ITWIcon from "../components/svg/ITWIcon";
-export default function ProductDesigner() {
+import Money from "../components/Videaste/Money";
+export default function Videaste() {
   return (
     <>
       <Head>
@@ -16,12 +16,15 @@ export default function ProductDesigner() {
         <div className="bg-white product-designer">
           <div className="p-8">
             <Title className="leading-none" as="h1">
-              Videaste <ITWIcon/>
+              Vidéaste <ITWIcon />
             </Title>
           </div>
           <div className="space-y-8">
             <Whats />
-            <Path />
+            <div className="flex">
+              <Money />
+              <Path />
+            </div>
           </div>
           <InfoSection />
         </div>
