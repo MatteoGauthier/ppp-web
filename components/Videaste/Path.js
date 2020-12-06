@@ -7,7 +7,7 @@ const Path = () => {
         Devenir vidéaste
       </h2>
       <div className="flex space-x-5 product-designer-text">
-        <p className="col-count-3">
+        <p className="">
           Les qualités d’un vidéaste sont multiples : un bon relationnel est bien évidemment obligatoire comme dans
           beaucoup d’autres métiers. Le sens de l’écoute et de l’organisation sont primordiaux dans ce métier pour que
           les projets se déroulent du mieux possible. La curiosité artistique et la culture audiovisuelle sont très

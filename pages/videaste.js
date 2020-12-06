@@ -21,10 +21,8 @@ export default function Videaste() {
           </div>
           <div className="space-y-8">
             <Whats />
-            <div className="flex">
               <Money />
               <Path />
-            </div>
           </div>
           <InfoSection />
         </div>

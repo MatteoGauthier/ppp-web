@@ -28,10 +28,10 @@ export default function Layout({ children }) {
           <a className="text-lg text-gravel-bright" href="#">
             À propos
           </a>
-          <a className="text-lg text-gravel-bright" href="#">
+          <a className="text-lg text-gravel-bright" href="https://github.com/MatteoGauthier/ppp-web">
             Github
           </a>
-          <a className="text-lg text-gravel-bright" href="#">
+          <a className="text-lg text-gravel-bright" href="https://twitter.com/MatteoGauthier_">
             Contact
           </a>
         </footer>
