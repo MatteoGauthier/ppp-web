@@ -18,12 +18,12 @@ const InfoSection = () => {
               Si vous souhaitez découvrir nos profils{" "}
               <img className="inline w-4 ml-2 align-middle" src="/images/smiling-face.png" alt="" />
             </p>
-            <div className="flex items-center px-2 py-1 bg-white rounded justify-centers">
+            <a href="#" className="flex items-center px-2 py-1 bg-white rounded justify-centers">
               <p className="text-sm">Vanon Borget ↗ </p>
-            </div>
-            <div className="flex items-center justify-center px-2 py-1 bg-white rounded">
+            </a>
+            <a href="#" className="flex items-center justify-center px-2 py-1 bg-white rounded">
               <p className="text-sm">Mattèo Gauthier ↗</p>
-            </div>
+            </a>
           </div>
         </div>
       </div>

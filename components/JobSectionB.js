@@ -1,15 +1,19 @@
 import Link from "next/link";
+import ITWIcon from "./svg/ITWIcon";
 import Title from "./Text/Title";
 const JobSectionB = () => {
   return (
     <div className="flex flex-row-reverse bg-white card">
       <div className="flex flex-row w-5/12 h-auto overflow-visible bg-transparent image-section">
-        <img className="object-cover w-1/2 sliced-image-alt" src="/images/j0dXzsTe2SU.webp" alt="" />
-        <img className="object-cover w-5/12 sliced-image-alt" src="/images/hy7r6AvycgE.webp" alt="" />
-        <img className="object-cover w-4/12 sliced-image-alt" src="/images/_-RFJf6-VM0.webp" alt="" />
+        <img className="object-cover w-1/2 sliced-image-alt" src="/images/padraig-treanor-A66iN9J4xlE-unsplash.webp" alt="" />
+        <img className="object-cover w-5/12 sliced-image-alt" src="/images/wahid-khene-iKdQCIiSMlQ-unsplash.webp" alt="" />
+        <img className="object-cover w-4/12 sliced-image-alt" src="/images/dorinel-panaite-l2PqLSd8YNA-unsplash.webp" alt="" />
       </div>
       <div className="flex flex-col items-end justify-center w-7/12 pr-8 space-y-2 text-right">
-        <Title>Motion Designer</Title>
+        <Title>
+          <ITWIcon />
+          Motion Designer{" "}
+        </Title>
         <p className="text-lg text-gravel">
           "Le motion design consiste à donner vie à du design, à des graphismes" c'est la définition que donne Benjamin
           Ulmet à son métier de motion designer lors d'une interview réalisée pour mieux appréhender ce métier. Vous

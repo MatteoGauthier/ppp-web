@@ -3,9 +3,9 @@ export default function Title({ children, as, color }) {
   return (
     <>
       {as == "h1" ? (
-        <h1 className={`text-6xl font-bold leading-tight font-display ${textColor}`}>{children}</h1>
+        <h1 className={`text-6xl flex items-center font-bold leading-tight font-display ${textColor}`}>{children}</h1>
       ) : (
-        <h2 className={`text-6xl font-bold leading-tight font-display ${textColor}`}>{children}</h2>
+        <h2 className={`text-6xl flex items-center font-bold leading-tight font-display ${textColor}`}>{children}</h2>
       )}
     </>
   );

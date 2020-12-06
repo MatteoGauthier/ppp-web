@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Title from "./Text/Title";
+import ITWIcon from "./svg/ITWIcon";
 const JobSectionA = () => {
   return (
     <div className="flex card bg-deep-black">
@@ -19,7 +20,7 @@ const JobSectionA = () => {
         <img className="object-cover w-1/2 sliced-image" src="/images/mia-baker-klRB1BB9pV8-unsplash (2).webp" alt="" />
       </div>
       <div className="flex flex-col justify-center w-7/12 pl-8 space-y-2">
-        <Title color="white">Product Designer</Title>
+        <Title color="white">Product Designer <ITWIcon/></Title>
         <p className="text-lg text-gray-clay">
           Le product design est présent dans votre quotidien, dans votre placard, dans votre cuisine, il sait mettre vit
           à vos objet du quotidien. Découvrez le métier de product designer à travers une description de son parcours et

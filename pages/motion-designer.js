@@ -6,6 +6,7 @@ import Whats from "../components/MotionDesigner/Whats";
 import Path from "../components/MotionDesigner/Path";
 import ITW from "../components/MotionDesigner/ITW";
 import InfoSection from "../components/InfoSection";
+import ITWIcon from "../components/svg/ITWIcon";
 export default function MotionDesigner() {
   return (
     <>
@@ -16,7 +17,7 @@ export default function MotionDesigner() {
         <div className="bg-white product-designer">
           <div className="p-8">
             <Title className="leading-none" as="h1">
-              Motion Designer
+              Motion Designer <ITWIcon/>
             </Title>
           </div>
 
