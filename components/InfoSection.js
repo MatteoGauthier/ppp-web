@@ -14,7 +14,7 @@ const InfoSection = () => {
             web regroupant les informations à propos de métiers abordés ainsi que les interviews que nous avons réalisé.
           </p>
           <div className="flex items-center space-x-2 justify-self-end">
-            <p className="flex items-center justify-center text-sm text-gray-300">
+            <p className="flex items-center justify-center text-sm italic text-white">
               Si vous souhaitez découvrir nos profils{" "}
               <img className="inline w-4 ml-2 align-middle" src="/images/smiling-face.png" alt="" />
             </p>

@@ -6,6 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
+        <meta name="description" content="Présentation de métiers du numérique, Vanon Borget et Mattèo Gauthier allons vous présenter le métier de Product Designer, Motion Designer et Vidéaste" />
         <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.woff" as="font" crossOrigin="" />
         <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.woff2" as="font" crossOrigin="" />
         <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.svg" as="font" crossOrigin="" />
@@ -14,7 +15,7 @@ export default function Layout({ children }) {
         <main className="max-w-screen-xl mx-auto mb-12 main">
           <div className="flex justify-between px-3 pb-3 uppercase text-yellowLight">
             <Link href="/">
-              <a>
+              <a aria-label="Métiers du numérique">
                 <ProjectName />
               </a>
             </Link>

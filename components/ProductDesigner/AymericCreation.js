@@ -10,7 +10,7 @@ const AymericCreation = () => {
         Les créations d’Aymeric
       </h2>
       <div className="grid grid-cols-6 grid-rows-2 gap-5 job-grid-first">
-        <a className="flex flex-col items-center justify-between w-full px-2.5 py-4 rounded-lg ">
+        <div className="flex flex-col items-center justify-between w-full px-2.5 py-4 rounded-lg ">
           <div>
             <span className="w-full text-2xl font-bold leading-none text-cool-gray-900">Dark Calendar App</span>
             <span className="self-start text-lg leading-normal text-true-gray-700 pt-2.5">UX - UI</span>
@@ -18,8 +18,12 @@ const AymericCreation = () => {
           <div className="relative self-end">
             <ArrowDown />
           </div>
-        </a>
-        <a href="https://dribbble.com/shots/13926981-Dorie-Interactive-and-ecotourism-walks" className="relative row-span-2">
+        </div>
+        <a
+          aria-label="Dribble link to creation"
+          href="https://dribbble.com/shots/13926981-Dorie-Interactive-and-ecotourism-walks"
+          className="relative row-span-2"
+        >
           <img
             className="absolute inset-0 object-cover w-full h-full rounded-lg "
             src="/images/parcours.webp"
@@ -39,16 +43,16 @@ const AymericCreation = () => {
         <div className="flex flex-col items-center justify-center col-span-2 space-y-4" id="follow-aymeric">
           <span className="text-3xl font-bold text-center text-white">Follow Aymeric on</span>
           <div className="flex space-x-4">
-            <a href="https://dribbble.com/aymericdelpeuch">
+            <a aria-label="Aymeric Dribble" href="https://dribbble.com/aymericdelpeuch">
               <DribbleIcon />
             </a>
-            <a href="https://twitter.com/DelayDesign">
+            <a aria-label="Aymeric Twitter" href="https://twitter.com/DelayDesign">
               <TwitterIcon />
             </a>
-            <a href="https://www.linkedin.com/in/aymeric-delpeuch-33a00115b/">
+            <a aria-label="Aymeric Linkedin" href="https://www.linkedin.com/in/aymeric-delpeuch-33a00115b/">
               <LinkedinIcon />
             </a>
-            <a href="https://www.behance.net/DelayDesign">
+            <a aria-label="Aymeric Behance" href="https://www.behance.net/DelayDesign">
               <BehanceIcon />
             </a>
           </div>
@@ -75,7 +79,7 @@ const AymericCreation = () => {
           <img
             className="absolute inset-0 object-cover w-full h-full rounded-lg"
             src="/images/book product.webp"
-            alt="Dark Calendar App preview"
+            alt="Digital aquitaine branding"
           />
         </a>
         <div className="flex flex-col items-center justify-between w-full px-2.5 py-4 rounded-lg ">
@@ -84,14 +88,20 @@ const AymericCreation = () => {
           </div>
           <div>
             <p className="self-start text-lg leading-normal text-true-gray-700">Branding - Motion</p>
-            <p className="w-full text-2xl font-bold leading-none pt-2.5 text-cool-gray-900 tracking-tight">Brand product design</p>
+            <p className="w-full text-2xl font-bold leading-none pt-2.5 text-cool-gray-900 tracking-tight">
+              Brand product design
+            </p>
           </div>
         </div>
-        <a href="https://dribbble.com/shots/14299910-EverReady-App" className="relative">
+        <a
+          aria-label="Dribble link to creation"
+          href="https://dribbble.com/shots/14299910-EverReady-App"
+          className="relative"
+        >
           <img
             className="absolute inset-0 object-cover w-full h-full rounded-lg"
             src="/images/ever ready app.webp"
-            alt="Dark Calendar App preview"
+            alt="EverReady app"
           />
         </a>
       </div>
