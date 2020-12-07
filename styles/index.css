@@ -17,7 +17,7 @@
   font-style: normal;
   font-display: swap;
 
-  unicode-range: U+20, U+2D, U+3F, U+41, U+44, U+4C, U+50, U+51, U+61, U+63-65, U+67, U+69, U+6C-77, U+79, U+E9, U+2019;
+  unicode-range: U+20,U+2D,U+3F,U+41-5A,U+61-7A,U+E8,U+E9,U+2019
 }
 
 @font-face {
@@ -28,7 +28,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+20, U+2D, U+3F, U+41, U+44, U+4C, U+50, U+51, U+61, U+63-65, U+67, U+69, U+6C-77, U+79, U+E9, U+2019;
+  unicode-range: U+20,U+2D,U+3F,U+41-5A,U+61-7A,U+E8,U+E9,U+2019
 }
 
 .image-section .sliced-image {
