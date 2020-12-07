@@ -18,7 +18,7 @@ const InfoSection = () => {
               Si vous souhaitez découvrir nos profils{" "}
               <img className="inline w-4 ml-2 align-middle" src="/images/smiling-face.png" alt="" />
             </p>
-            <a href="#" className="flex items-center px-2 py-1 bg-white rounded justify-centers">
+            <a href="https://www.instagram.com/vanonymous974/" className="flex items-center px-2 py-1 bg-white rounded justify-centers">
               <p className="text-sm">Vanon Borget ↗ </p>
             </a>
             <a href="https://mattèo.dev" className="flex items-center justify-center px-2 py-1 bg-white rounded">

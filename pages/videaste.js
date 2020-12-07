@@ -16,7 +16,7 @@ export default function Videaste() {
         <div className="bg-white product-designer">
           <div className="p-8">
             <Title className="leading-none" as="h1">
-              Vidéaste <ITWIcon />
+              Vidéaste
             </Title>
           </div>
           <div className="space-y-8">
