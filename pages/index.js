@@ -8,6 +8,8 @@ export default function IndexPage() {
   return (
     <>
       <Head>
+        <meta name="keywords" content="PPP, MMI, DUT, DUT MMI, Mattèo Gauthier, Vanon Borget, Présentation, Product designer, Motion Designer, Vidéaste" />
+
         <title>Présentation de métiers du numérique - Vanon Borget & Mattèo Gauthier</title>
       </Head>
       <Layout>

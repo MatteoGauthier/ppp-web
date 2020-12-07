@@ -9,7 +9,23 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="fr">
-        <Head />
+        <Head>
+          <link rel="manifest" href="manifest.json" />
+          <link rel="icon" href="/images/icons/favicon.svg" />
+          <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="application-name" content="PPP" />
+          <meta name="apple-mobile-web-app-title" content="PPP" />
+          <meta name="msapplication-starturl" content="/" />
+          <meta
+            name="description"
+            content="Présentation de métiers du numérique, Vanon Borget et Mattèo Gauthier allons vous présenter le métier de Product Designer, Motion Designer et Vidéaste"
+          />
+          <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.woff" as="font" crossOrigin="" />
+          <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.woff2" as="font" crossOrigin="" />
+          <link rel="preload" href="/fonts/subset-RadioGrotesk-Bold.svg" as="font" crossOrigin="" />
+        </Head>
         <body>
           <Main />
           <NextScript />
