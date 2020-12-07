@@ -10,6 +10,16 @@ class MyDocument extends Document {
     return (
       <Html lang="fr">
         <Head>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-VBLSFN8C21"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-VBLSFN8C21');`,
+            }}
+          />
           <link rel="manifest" href="manifest.json" />
           <link rel="icon" href="/images/icons/favicon.svg" />
           <link rel="apple-touch-icon" href="/apple-icon.png"></link>
