@@ -14,16 +14,20 @@ const JobSectionC = () => {
           src="/images/wahid-khene-iKdQCIiSMlQ-unsplash.webp"
           alt=""
         />
-        <img className="object-cover w-1/2 sliced-image" src="/images/dorinel-panaite-l2PqLSd8YNA-unsplash.webp" alt="" />
+        <img
+          className="object-cover w-1/2 sliced-image"
+          src="/images/dorinel-panaite-l2PqLSd8YNA-unsplash.webp"
+          alt=""
+        />
       </div>
       <div className="flex flex-col justify-center w-7/12 pl-8 space-y-2">
         <Title color="white">Vidéaste</Title>
         <p className="text-lg text-gray-clay">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor vulputate vel et in morbi amet. Tincidunt
-          condimentum nisi, quam eget posuere facilisi porta. Nisi, urna sit consequat id magna elementum leo. Feugiat
-          eu mi in dignissim vestibulum. Lectus facilisis fermentum platea id aliquet tellus vulputate enim. Nunc
-          adipiscing dolor dignissim ut. Ut aliquet sit aliquet egestas praesent elit non. Interdum eget eget ultrices
-          pulvinar semper tincidunt. Sem fames ac nulla in egestas ut velit morbi dolor quam.
+          Qu’est-ce qu’un vidéaste ? C’est à travers de cet article que vous trouverez beaucoup d’informations sur ce
+          métier très vaste. Vous découvrirez notamment les missions qui lui sont confiées et comment parvenir à exercer
+          ce métier ? Quelles sont les formations qui existent ? Dans cet article, vous apprendrez à connaître ce métier
+          dans les moindres détails pour que vous osez peut-être à faire le pas pour devenir l’un de ces artistes de
+          l’image...
         </p>
         <Link href="/videaste">
           <a className="link">Découvrir le métier de Vidéaste →</a>
