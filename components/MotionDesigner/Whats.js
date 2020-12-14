@@ -9,7 +9,7 @@ const Whats = () => {
       <div className="flex space-x-5 product-designer-text">
         <p className=" col-count-3">
           Un motion designer est un concepteur de création graphique alliant la vidéo, l’animation, la 3D, les effets
-          spéciaux, le sound design, le graphisme, etc… c4est un graphiste polyvalent qui maîtrise plusieurs
+          spéciaux, le sound design, le graphisme, etc… C'est un graphiste polyvalent qui maîtrise plusieurs
           technologies. On retrouve du motion design dans des spot publicitaire, des clips musicaux, des présentations
           de produit, des films, etc.. Avec l'arrivée du web le métier de motion designer s'est beaucoup développé pour
           s’adapter au support consommation toujours plus divers. Le motion design est un domaine de plus en plus
