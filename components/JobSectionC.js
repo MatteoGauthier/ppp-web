@@ -2,8 +2,8 @@ import Link from "next/link";
 import Title from "./Text/Title";
 const JobSectionC = () => {
   return (
-    <div className="flex card bg-deep-black">
-      <div className="flex flex-row w-5/12 h-auto overflow-visible bg-transparent image-section">
+    <div className="flex flex-col sm:flex-row card bg-deep-black">
+      <div className="flex flex-row w-full h-auto overflow-visible bg-transparent sm:w-5/12 image-section">
         <img
           className="z-20 object-cover w-4/12 sliced-image"
           src="/images/padraig-treanor-A66iN9J4xlE-unsplash.webp"
@@ -20,9 +20,9 @@ const JobSectionC = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-col justify-center w-7/12 pl-8 space-y-2">
+      <div className="flex flex-col justify-center w-full px-4 py-6 space-y-2 sm:p-0 sm:pl-8 sm:w-7/12">
         <Title color="white">Vidéaste</Title>
-        <p className="text-lg text-gray-clay">
+        <p className="lg:text-lg text-gray-clay">
           Qu’est-ce qu’un vidéaste ? C’est à travers de cet article que vous trouverez beaucoup d’informations sur ce
           métier très vaste. Vous découvrirez notamment les missions qui lui sont confiées et comment parvenir à exercer
           ce métier ? Quelles sont les formations qui existent ? Dans cet article, vous apprendrez à connaître ce métier

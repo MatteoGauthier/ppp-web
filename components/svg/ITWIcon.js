@@ -3,12 +3,13 @@ import * as React from "react";
 function ITWIcon(props) {
   return (
     <svg
-      width={60}
-      height={61}
+      width="1em"
+      height="1em"
+      viewBox="0 0 60 61"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
-      className="mx-2"
+      className="absolute right-0 w-10 mx-2 lg:w-auto sm:relative"
     >
       <rect
         x={7.376}

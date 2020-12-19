@@ -4,8 +4,8 @@ import Title from "./Text/Title";
 import ITWIcon from "./svg/ITWIcon";
 const JobSectionA = () => {
   return (
-    <div className="flex card bg-deep-black">
-      <div className="flex flex-row w-5/12 h-auto overflow-visible bg-transparent image-section">
+    <div className="flex flex-col sm:flex-row card bg-deep-black">
+      <div className="flex flex-row w-full h-auto overflow-visible bg-transparent sm:w-5/12 image-section">
         {/* <Image width={} className="z-20 object-cover w-4/12 sliced-image" src="/images/kelly-sikkema-v9FQR4tbIq8-unsplash (1).webp" alt="" /> */}
         <img
           className="z-20 object-cover w-4/12 sliced-image"
@@ -19,9 +19,9 @@ const JobSectionA = () => {
         />
         <img className="object-cover w-1/2 sliced-image" src="/images/mia-baker-klRB1BB9pV8-unsplash (2).webp" alt="" />
       </div>
-      <div className="flex flex-col justify-center w-7/12 pl-8 space-y-2">
+      <div className="flex flex-col justify-center w-full px-4 py-6 space-y-2 sm:w-7/12 sm:p-0 sm:pl-8">
         <Title color="white">Product Designer <ITWIcon/></Title>
-        <p className="text-lg text-gray-clay">
+        <p className="lg:text-lg text-gray-clay">
           Le product design est présent dans votre quotidien, dans votre placard, dans votre cuisine, il sait mettre vit
           à vos objet du quotidien. Découvrez le métier de product designer à travers une description de son parcours et
           de ses réalisations. Nous avons interviewé Aymeric Delpeuch lui-même Product Designer pour vous permettre de

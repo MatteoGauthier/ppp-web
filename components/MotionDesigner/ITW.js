@@ -20,7 +20,7 @@ const ITW = () => {
         </p>
         <div className="w-1/3 ">
           <lite-youtube
-            class="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg"
             videoId="1WXeh5-z_64"
             playlabel="Interview Benjamin Ulmet - MMI 2020"
           />

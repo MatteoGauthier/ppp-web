@@ -18,7 +18,7 @@ const ITW = () => {
         </p>
         <div className="w-1/3 ">
         <lite-youtube
-            class="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg"
             videoId="2-g96TuTVSQ"
             playlabel="Interview Aymeric Delpeuch - MMI 2020"
           />

@@ -3,18 +3,18 @@ import ITWIcon from "./svg/ITWIcon";
 import Title from "./Text/Title";
 const JobSectionB = () => {
   return (
-    <div className="flex flex-row-reverse bg-white card">
-      <div className="flex flex-row w-5/12 h-auto overflow-visible bg-transparent image-section">
+    <div className="flex flex-col bg-white sm:flex-row-reverse card">
+      <div className="flex flex-row w-full h-auto overflow-visible bg-transparent sm:w-5/12 image-section">
         <img className="object-cover w-1/2 sliced-image-alt" src="/images/desktop-ui.webp" alt="" />
         <img className="object-cover w-5/12 sliced-image-alt" src="/images/raibow-ipad.webp" alt="" />
         <img className="object-cover w-4/12 sliced-image-alt" src="/images/jacob-miller-ot5kWZkH97s-unsplash.webp" alt="" />
       </div>
-      <div className="flex flex-col items-end justify-center w-7/12 pr-8 space-y-2 text-right">
+      <div className="flex flex-col justify-center w-full px-4 py-6 space-y-2 sm:text-right sm:items-end sm:p-0 sm:w-7/12 sm:pr-8">
         <Title>
           <ITWIcon />
           Motion Designer{" "}
         </Title>
-        <p className="text-lg text-gravel">
+        <p className="lg:text-lg text-gravel">
           "Le motion design consiste à donner vie à du design, à des graphismes" c'est la définition que donne Benjamin
           Ulmet à son métier de motion designer lors d'une interview réalisée pour mieux appréhender ce métier. Vous
           pourrez aussi trouver une description de ce métier entre réalisation graphique et animation, ainsi que de son
