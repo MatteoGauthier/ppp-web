@@ -5,9 +5,9 @@ const JobSectionB = () => {
   return (
     <div className="flex flex-col bg-white sm:flex-row-reverse card">
       <div className="flex flex-row w-full h-auto overflow-visible bg-transparent sm:w-5/12 image-section">
-        <img className="object-cover w-1/2 sliced-image-alt" src="/images/desktop-ui.webp" alt="" />
-        <img className="object-cover w-5/12 sliced-image-alt" src="/images/raibow-ipad.webp" alt="" />
-        <img className="object-cover w-4/12 sliced-image-alt" src="/images/jacob-miller-ot5kWZkH97s-unsplash.webp" alt="" />
+        <img loading="lazy"  className="object-cover w-1/2 sliced-image-alt" src="/images/desktop-ui.webp" alt="" />
+        <img loading="lazy"  className="object-cover w-5/12 sliced-image-alt" src="/images/raibow-ipad.webp" alt="" />
+        <img loading="lazy"  className="object-cover w-4/12 sliced-image-alt" src="/images/jacob-miller-ot5kWZkH97s-unsplash.webp" alt="" />
       </div>
       <div className="flex flex-col justify-center w-full px-4 py-6 space-y-2 sm:text-right sm:items-end sm:p-0 sm:w-7/12 sm:pr-8">
         <Title>

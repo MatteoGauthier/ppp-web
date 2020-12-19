@@ -1,8 +1,6 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
-  presets: [
-    require('full-palette')
-  ],
+  presets: [require("full-palette")],
   experimental: {
     // uniformColorPalette: true,
     applyComplexClasses: true,
@@ -14,11 +12,11 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  purge: ["./components/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
       sans: ["'Inter'", "Inter", ...defaultTheme.fontFamily.sans],
-      display: ["'Radio Grotesk'","Radio Grotesk", ...defaultTheme.fontFamily.sans],
+      display: ["'Radio Grotesk'", "Radio Grotesk", ...defaultTheme.fontFamily.sans],
     },
     extend: {
       colors: {
@@ -35,10 +33,11 @@ module.exports = {
         "black-side": "#151515",
       },
       fontSize: {
-        '28': '1.75rem'
-      }
+        28: "1.75rem",
+      },
     },
   },
-  variants: {},
-  plugins: [ require('tailwindcss-multi-column')(),],
+  variants: {
+  },
+  plugins: [require("tailwindcss-multi-column")()],
 };

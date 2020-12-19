@@ -4,17 +4,17 @@ const JobSectionC = () => {
   return (
     <div className="flex flex-col sm:flex-row card bg-deep-black">
       <div className="flex flex-row w-full h-auto overflow-visible bg-transparent sm:w-5/12 image-section">
-        <img
+        <img loading="lazy" 
           className="z-20 object-cover w-4/12 sliced-image"
           src="/images/padraig-treanor-A66iN9J4xlE-unsplash.webp"
           alt=""
         />
-        <img
+        <img loading="lazy" 
           className="z-10 object-cover w-5/12 sliced-image"
           src="/images/wahid-khene-iKdQCIiSMlQ-unsplash.webp"
           alt=""
         />
-        <img
+        <img loading="lazy" 
           className="object-cover w-1/2 sliced-image"
           src="/images/dorinel-panaite-l2PqLSd8YNA-unsplash.webp"
           alt=""

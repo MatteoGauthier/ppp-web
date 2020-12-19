@@ -14,15 +14,15 @@ export default function Videaste() {
       </Head>
       <Layout>
         <div className="bg-white product-designer">
-          <div className="p-8">
+          <div className="p-4 md:p-8">
             <Title className="leading-none" as="h1">
               Vidéaste
             </Title>
           </div>
           <div className="space-y-8">
             <Whats />
-              <Money />
-              <Path />
+            <Money />
+            <Path />
           </div>
           <InfoSection />
         </div>

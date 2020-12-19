@@ -2,12 +2,12 @@ import React from "react";
 
 const Whats = () => {
   return (
-    <div className="px-8">
-      <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-whats job-heading" id="whats">
+    <div className="px-4 md:px-8">
+      <h2 className="mb-5 text-2xl text-gray-900 md:pl-3 xl:text-4xl font-display job-heading-whats job-heading" id="whats">
         Qu’est-ce qu’un Vidéaste ?
       </h2>
       <div className="flex space-x-5 product-designer-text">
-        <p className="col-count-3">
+        <p className="xl:xl:col-count-3 sm:col-count-2 col-count-1">
           Un vidéaste est chargé de concevoir et réaliser des programmes vidéo. Il doit gérer, coordonner et faire le
           suivi d’un projet vidéo de A à Z et par-dessus tout optimiser les moyens financiers, humains et matériels pour
           que le projet coûte le moins cher possible. Ses tâches sont diverses et varient en fonction de si l’on

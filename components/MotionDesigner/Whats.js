@@ -2,12 +2,12 @@ import React from "react";
 
 const Whats = () => {
   return (
-    <div className="px-8">
-      <h2 className="pl-3 mb-5 text-4xl text-gray-900 font-display job-heading-whats job-heading" id="whats">
+    <div className="px-4 md:px-8">
+      <h2 className="md:pl-3 mb-5 text-2xl xl:text-4xl text-gray-900 font-display job-heading-whats job-heading" id="whats">
         Qu’est-ce qu’un Motion Designer ?
       </h2>
       <div className="flex space-x-5 product-designer-text">
-        <p className=" col-count-3">
+        <p className=" xl:col-count-3 sm:col-count-2 col-count-1">
           Un motion designer est un concepteur de création graphique alliant la vidéo, l’animation, la 3D, les effets
           spéciaux, le sound design, le graphisme, etc… C'est un graphiste polyvalent qui maîtrise plusieurs
           technologies. On retrouve du motion design dans des spot publicitaire, des clips musicaux, des présentations

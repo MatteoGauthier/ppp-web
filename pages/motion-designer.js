@@ -15,7 +15,7 @@ export default function MotionDesigner() {
       </Head>
       <Layout>
         <div className="bg-white product-designer">
-          <div className="p-8">
+          <div className="p-4 md:p-8">
             <Title className="leading-none" as="h1">
               Motion Designer <ITWIcon/>
             </Title>
