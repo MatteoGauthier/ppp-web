@@ -12,6 +12,9 @@ export default function IndexPage() {
           name="keywords"
           content="PPP, MMI, DUT, DUT MMI, Mattèo Gauthier, Vanon Borget, Présentation, Product designer, Motion Designer, Vidéaste"
         />
+<meta name="author" content="Mattèo Gauthier, matteo.gauthier@gmail.com"/>
+<meta name='date' content='Dec. 14, 2020'/>
+
         <meta property="og:title" content="Présentation de métiers du numérique - Vanon Borget & Mattèo Gauthier" />
         <meta property="og:site_name" content="Présentation de métiers du numérique" />
         <meta property="og:url" content="https://ppp-mmi.now.sh/" />
