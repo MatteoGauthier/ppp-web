@@ -6,7 +6,7 @@ const ITW = () => {
   }, []);
   return (
     <div className="px-4 md:px-8">
-      <h2 className="md:pl-3 mb-5 text-2xl text-gray-900 xl:text-4xl font-display job-heading-itw job-heading" id="itw">
+      <h2 className="mb-5 text-2xl text-gray-900 md:pl-3 xl:text-4xl font-display job-heading-itw job-heading" id="itw">
         L’interview d’un Product Designer
       </h2>
       <div className="flex flex-col md:space-x-5 md:flex-row product-designer-text">
@@ -18,7 +18,7 @@ const ITW = () => {
         <div className="w-full mt-2 md:mt-0 md:w-1/3">
         <lite-youtube
             className="rounded-lg shadow-lg"
-            videoId="2-g96TuTVSQ"
+            videoId="8XDrGKzNARU"
             playlabel="Interview Aymeric Delpeuch - MMI 2020"
           />
         </div>
