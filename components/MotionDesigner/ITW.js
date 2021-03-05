@@ -11,11 +11,11 @@ const ITW = () => {
       </h2>
       <div className="flex flex-col md:space-x-5 md:flex-row product-designer-text">
         <p className="md:w-2/3 ">
-          Nous avons choisi de réaliser une interview pour parler du métier de motion designer d’une façon différente
-          qu’un simple exposé, l’objectif est d’avoir le point de vue d’un professionnel du métier pour connaître les
+          Nous avons choisi de réaliser une interview pour présenter le métier de Motion Designer d’une façon différente
+          qu’un simple exposé. L’objectif est d’avoir le point de vue d’un professionnel du métier pour connaître les
           réalités de terrain. Benjamin Ulmet est un motion designer, à travers l’interview que nous avons réalisée vous
-          allez découvrir durant ces 20 min d’interview son parcours, ses activités professionnels, les différentes
-          missions qu’il a réalisées, le recrutement et plein d’autres informations surement utiles pour découvrir ce
+          allez découvrir durant ces 20 min d’entretien, son parcours, ses activités professionnelles, les différentes
+          missions qu’il a réalisées, le recrutement et plein d’autres informations sûrement utiles pour découvrir ce
           métier.
         </p>
         <div className="w-full mt-2 md:mt-0 md:w-1/3">

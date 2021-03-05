@@ -11,7 +11,7 @@ const InfoSection = () => {
           <p className="w-full text-justify text-white">
             Vanon & moi-même (Mattèo) apprécions particulièrement le domaine de l’audiovisuel et du développement web,
             c’est pourquoi nous nous sommes lancés le défi de faire un rendu sous forme d’interview vidéo et d’un site
-            web regroupant les informations à propos de métiers abordés ainsi que les interviews que nous avons réalisé.
+            web regroupant les informations à propos de métiers abordés ainsi que les interviews que nous avons réalisées.
           </p>
           <div className="flex flex-col items-center space-y-2 md:flex-row md:space-y-0 md:space-x-2 justify-self-end">
             <p className="flex items-center justify-center italic text-white">
@@ -20,7 +20,7 @@ const InfoSection = () => {
             </p>
             <div className="flex space-x-2">
               <a
-                href="https://www.instagram.com/vanonymous974/"
+                href="https://www.instagram.com/vanonborget/"
                 className="flex items-center justify-center px-2 py-1 bg-white rounded"
               >
                 <p className="text-sm">Vanon Borget ↗ </p>

@@ -16,7 +16,7 @@ const Path = () => {
           un master, dans une filière sciences et technologie. L'idéal pour devenir product designer reste le diplôme
           national d'art et technique (DNAT), spécialité « design de produit », aux Beaux Arts ou le Diplôme Supérieur
           en Arts Appliqués (DSAA), à Bac +4 au sein d'une école d'arts appliqués. Dès bac +5, de nombreuses écoles
-          proposent un différent diplômes, comme le diplôme national supérieur d'expression plastique (DNSEP), le
+          proposent différents diplômes, comme le diplôme national supérieur d'expression plastique (DNSEP), le
           diplôme de l'École nationale des arts décoratifs (ENSAD), ou encore le diplôme de création industrielle de
           l'ENSCI.
         </p>
