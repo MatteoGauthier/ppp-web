@@ -26,7 +26,7 @@ const JobSectionC = () => {
           Qu’est-ce qu’un vidéaste ? C’est à travers de cet article que vous trouverez beaucoup d’informations sur ce
           métier très vaste. Vous découvrirez notamment les missions qui lui sont confiées et comment parvenir à exercer
           ce métier ? Quelles sont les formations qui existent ? Dans cet article, vous apprendrez à connaître ce métier
-          dans les moindres détails pour que vous osez peut-être à faire le pas pour devenir l’un de ces artistes de
+          dans les moindres détails afin que vous osiez peut-être à faire le pas pour devenir l’un de ces artistes de
           l’image...
         </p>
         <Link href="/videaste">

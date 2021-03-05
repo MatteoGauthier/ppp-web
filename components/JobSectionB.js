@@ -15,9 +15,9 @@ const JobSectionB = () => {
           Motion Designer{" "}
         </Title>
         <p className="lg:text-lg text-gravel">
-          "Le motion design consiste à donner vie à du design, à des graphismes" c'est la définition que donne Benjamin
-          Ulmet à son métier de motion designer lors d'une interview réalisée pour mieux appréhender ce métier. Vous
-          pourrez aussi trouver une description de ce métier entre réalisation graphique et animation, ainsi que de son
+          "Le motion design consiste à donner vie à du design, à des graphismes". C'est la définition que donne Benjamin
+          Ulmet à son métier de motion designer lors d'une interview réalisée pour découvrir ce métier. Vous
+          trouverez une description du métier qui allie réalisation graphique et animation, ainsi que de son
           parcours de formation.
         </p>
         <Link href="/motion-designer">

@@ -11,10 +11,9 @@ const ITW = () => {
       </h2>
       <div className="flex flex-col md:space-x-5 md:flex-row product-designer-text">
         <p className="md:w-2/3 ">
-          Pour mieux comprendre le métier de Product Designer, nous avons choisis d’interviewer un professionnel du
-          métier, il se nomme Aymeric Delpeuch et il fait le métier de Product Designer, aujourd’hui il travaille au
-          sein de l’agence web BeTomorrow, nous nous sommes déplacés dans les locaux de l’agence. La réalisation de
-          l'interview nous à permis de travailler le domaine de l'audiovisuel.
+          Pour mieux comprendre le métier de Product Designer, nous avons choisi d’interviewer un professionnel du
+          métier : il se nomme Aymeric Delpeuch et excerce le métier de Product Designer. Aujourd’hui il travaille au
+          sein de l’agence web BeTomorrow à Bordeaux. Nous l'avons rencontrés pour qu'il nous présente en détail son métier.
         </p>
         <div className="w-full mt-2 md:mt-0 md:w-1/3">
         <lite-youtube
